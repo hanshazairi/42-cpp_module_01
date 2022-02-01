@@ -6,7 +6,7 @@
 /*   By: hbaddrul <hbaddrul@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 00:28:54 by hbaddrul          #+#    #+#             */
-/*   Updated: 2022/02/02 01:04:13 by hbaddrul         ###   ########.fr       */
+/*   Updated: 2022/02/02 02:06:41 by hbaddrul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,10 @@ using std::string;
 
 Weapon::Weapon(string type) : type_(type) {}
 
-string  Weapon::getType(void) const {
+string Weapon::getType(void) const {
     return type_;
 }
 
-void    Weapon::setType(string type) {
+void Weapon::setType(string type) {
     type_ = type;
 }

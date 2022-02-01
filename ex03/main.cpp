@@ -6,7 +6,7 @@
 /*   By: hbaddrul <hbaddrul@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 00:17:14 by hbaddrul          #+#    #+#             */
-/*   Updated: 2022/02/02 01:01:38 by hbaddrul         ###   ########.fr       */
+/*   Updated: 2022/02/02 02:06:29 by hbaddrul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,6 @@ int main(void) {
         club.setType("some other type of club");
         jim.attack();
     }
+
     return 0;
 }

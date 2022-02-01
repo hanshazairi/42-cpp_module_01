@@ -6,7 +6,7 @@
 /*   By: hbaddrul <hbaddrul@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/01 20:39:24 by hbaddrul          #+#    #+#             */
-/*   Updated: 2022/02/01 22:28:50 by hbaddrul         ###   ########.fr       */
+/*   Updated: 2022/02/02 02:03:28 by hbaddrul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int main(void) {
     int count = 3;
-    Zombie  *zombies = zombieHorde(count, "Heaps");
+    Zombie *zombies = zombieHorde(count, "Heaps");
 
-    for (int i = 0; i < count; i ++)
+    for (int i = 0; i < count; i++)
         zombies[i].announce();
 
     delete[] zombies;

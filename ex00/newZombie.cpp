@@ -6,7 +6,7 @@
 /*   By: hbaddrul <hbaddrul@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/01 20:02:38 by hbaddrul          #+#    #+#             */
-/*   Updated: 2022/02/01 21:03:02 by hbaddrul         ###   ########.fr       */
+/*   Updated: 2022/02/02 02:01:03 by hbaddrul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,6 @@
 
 using std::string;
 
-Zombie  *newZombie(string name) {
+Zombie *newZombie(string name) {
     return (new Zombie(name));
 }

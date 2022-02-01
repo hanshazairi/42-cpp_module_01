@@ -6,7 +6,7 @@
 /*   By: hbaddrul <hbaddrul@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 00:33:49 by hbaddrul          #+#    #+#             */
-/*   Updated: 2022/02/02 01:05:08 by hbaddrul         ###   ########.fr       */
+/*   Updated: 2022/02/02 02:06:13 by hbaddrul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,16 +18,16 @@
 
 using std::string;
 
-class   HumanB {
+class HumanB {
  public:
-    explicit    HumanB(string name);
+    explicit HumanB(string name);
 
-    void        setWeapon(Weapon &weapon);
-    void        attack(void) const;
+    void setWeapon(Weapon &weapon);
+    void attack(void) const;
 
  private:
-    string      name_;
-    Weapon      *weapon_;
+    string name_;
+    Weapon *weapon_;
 };
 
 #endif  // EX03_HUMANB_HPP_

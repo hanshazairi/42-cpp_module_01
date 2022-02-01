@@ -6,7 +6,7 @@
 /*   By: hbaddrul <hbaddrul@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 00:00:39 by hbaddrul          #+#    #+#             */
-/*   Updated: 2022/02/02 00:13:49 by hbaddrul         ###   ########.fr       */
+/*   Updated: 2022/02/02 02:05:24 by hbaddrul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,9 @@ using std::endl;
 using std::string;
 
 int main(void) {
-    string  str = "HI THIS IS BRAIN";
-    string  *stringPTR = &str;
-    string  &stringREF = str;
+    string str = "HI THIS IS BRAIN";
+    string *stringPTR = &str;
+    string &stringREF = str;
 
     cout << &str << endl;
     cout << stringPTR << endl;

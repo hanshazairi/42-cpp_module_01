@@ -6,7 +6,7 @@
 /*   By: hbaddrul <hbaddrul@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/01 19:47:17 by hbaddrul          #+#    #+#             */
-/*   Updated: 2022/02/01 22:13:18 by hbaddrul         ###   ########.fr       */
+/*   Updated: 2022/02/02 02:02:44 by hbaddrul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,18 +19,19 @@ using std::string;
 
 class Zombie {
  public:
-    explicit    Zombie(string name);
+    explicit Zombie(string name);
     ~Zombie(void);
 
-    void        announce(void) const;
+    void announce(void) const;
+
  private:
-    string      name_;
+    string name_;
 };
 
 /* newZombie.cpp */
-Zombie  *newZombie(string name);
+Zombie *newZombie(string name);
 
 /* randomChump.cpp */
-void    randomChump(string name);
+void randomChump(string name);
 
 #endif  // EX00_ZOMBIE_HPP_
