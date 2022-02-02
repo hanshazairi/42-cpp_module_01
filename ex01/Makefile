@@ -1,4 +1,4 @@
-NAME = Moar_brainz!
+NAME = brainz
 SOURCES = main.cpp Zombie.cpp ZombieHorde.cpp
 HEADERS = Zombie.hpp
 OBJECTS = $(SOURCES:.cpp=.o)

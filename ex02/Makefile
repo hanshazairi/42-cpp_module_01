@@ -1,4 +1,4 @@
-NAME = HI_THIS_IS_BRAIN
+NAME = brainz
 SOURCES = main.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 

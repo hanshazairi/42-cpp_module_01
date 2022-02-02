@@ -1,4 +1,4 @@
-NAME = Unnecessary_violence
+NAME = human
 SOURCES = main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
 HEADERS = Weapon.hpp HumanA.hpp HumanB.hpp
 OBJECTS = $(SOURCES:.cpp=.o)

@@ -1,4 +1,4 @@
-NAME = BraiiiiiiinnnzzzZ
+NAME = brainz
 SOURCES = main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
 HEADERS = Zombie.hpp
 OBJECTS = $(SOURCES:.cpp=.o)
