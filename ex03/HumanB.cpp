@@ -6,7 +6,7 @@
 /*   By: hbaddrul <hbaddrul@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 00:33:33 by hbaddrul          #+#    #+#             */
-/*   Updated: 2022/02/02 02:05:55 by hbaddrul         ###   ########.fr       */
+/*   Updated: 2022/02/07 22:06:17 by hbaddrul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void HumanB::setWeapon(Weapon &weapon) {
 }
 
 void HumanB::attack(void) const {
-    if (!weapon_)
+    if (weapon_)
         cout << name_ << " attacks with their " << weapon_->getType() << endl;
     else
         cout << name_ << " is not equipped with a weapon" << endl;
