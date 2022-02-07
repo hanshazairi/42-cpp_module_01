@@ -1,4 +1,4 @@
-NAME = brainz
+NAME = hi_this_is_brain
 SOURCES = main.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 
@@ -22,6 +22,6 @@ fclean: clean
 re: fclean all
 
 lint:
-	cpplint $(SOURCES)
+	cpplint --filter=-legal/copyright $(SOURCES)
 
 .PHONY: all clean fclean re lint

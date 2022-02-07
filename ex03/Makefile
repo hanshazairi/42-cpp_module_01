@@ -1,4 +1,4 @@
-NAME = human
+NAME = unnecessary_violence
 SOURCES = main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
 HEADERS = Weapon.hpp HumanA.hpp HumanB.hpp
 OBJECTS = $(SOURCES:.cpp=.o)
@@ -23,6 +23,6 @@ fclean: clean
 re: fclean all
 
 lint:
-	cpplint $(SOURCES) $(HEADERS)
+	cpplint --filter=-legal/copyright $(SOURCES) $(HEADERS)
 
 .PHONY: all clean fclean re lint

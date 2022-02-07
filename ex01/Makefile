@@ -1,4 +1,4 @@
-NAME = brainz
+NAME = moar_brainz
 SOURCES = main.cpp Zombie.cpp ZombieHorde.cpp
 HEADERS = Zombie.hpp
 OBJECTS = $(SOURCES:.cpp=.o)
@@ -23,6 +23,6 @@ fclean: clean
 re: fclean all
 
 lint:
-	cpplint $(SOURCES) $(HEADERS)
+	cpplint --filter=-legal/copyright $(SOURCES) $(HEADERS)
 
 .PHONY: all clean fclean re lint
